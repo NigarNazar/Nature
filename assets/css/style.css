@@ -86,8 +86,14 @@ h3 span{
     color:#6ab04c ;
     text-decoration: underline;
 }
+.footer{
+    display: flex;
+    justify-content: center;
 
+}
 .footer p{
     color: #16a085;
     padding-bottom: 30px;
+    padding-left: 10px;
+    
 }
