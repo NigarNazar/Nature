@@ -21,7 +21,10 @@
         <div class="logo">
             <h1 class="sf-article-header__tittle">NATURE</h1>
         </div>
-
+        <div class="class">
+            <a href=""><i class="fa-solid fa-bars"></i></a>
+        </div>
+      
         <nav class="nav-links">
             <a href="">View all journals</a>
             <a href="">search <i class="fa-solid fa-magnifying-glass"></i></a>
@@ -33,25 +36,28 @@
     <form method="get" id="filtre-nature">
         <div class=" filtre-nature">
             <input type="hidden" id="original-slug" value="Nature">
-            <div>
-                <select name="sel-category" id="category">
-                    <option value="0">All Types</option>
-                    <option value="Blog">Blogs</option>
-                    <option value="News">News</option>
-                    <option value="Explainers"> Explainers</option>
-
-                </select>
+            <div class="sel-category">
+                <div>
+                    <select name="sel-category" id="category">
+                        <option value="0">All Types</option>
+                        <option value="Blog">Blogs</option>
+                        <option value="News">News</option>
+                        <option value="Explainers"> Explainers</option>
+    
+                    </select>
+                </div>
+    
+                <div>
+                    <select name="sel-theme" id="theme">
+                        <option value="0">All Theme</option>
+                        <option value="Capacity Development">Capacity Development</option>
+                        <option value="Innovations">Innovations</option>
+                        <option value="Nutriont and health ">Nutriont and health </option>
+    
+                    </select>
+                </div>
             </div>
-
-            <div>
-                <select name="sel-theme" id="theme">
-                    <option value="0">All Theme</option>
-                    <option value="Capacity Development">Capacity Development</option>
-                    <option value="Innovations">Innovations</option>
-                    <option value="Nutriont and health ">Nutriont and health </option>
-
-                </select>
-            </div>
+           <div class="sel-location">
             <div>
                 <select name="sel-locations" id="locations">
                     <option value="0">All Locations</option>
@@ -72,6 +78,8 @@
 
                 </select>
             </div>
+           </div>
+           
         </div>
     </form>
     <section class="section">
