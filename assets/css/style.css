@@ -66,6 +66,7 @@ header{
 .filtre-nature select{
     background-color: #ecf0f1;
     border: none;
+    outline: none;
     border-bottom: 3px solid #16a085;
     margin-right: 100px;
     margin-top: 35px;
@@ -85,8 +86,11 @@ header{
     justify-content: center;
     align-items: center;
     padding-bottom:100px;
+
    
 }
+
+
 h1 span{
     color: #16a085;
 }
